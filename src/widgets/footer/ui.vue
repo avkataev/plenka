@@ -4,16 +4,16 @@
 <template>
     <footer class='footer'>
         <button class='footer-button'>
-            <span><icon-home></icon-home></span>
+            <span><ui-icon-home></ui-icon-home></span>
         </button>
         <button class='footer-button'>
-            <span><icon-search></icon-search></span>
+            <span><ui-icon-search></ui-icon-search></span>
         </button>
         <button class='footer-button'>
-            <span><icon-reels></icon-reels></span>
+            <span><ui-icon-reels></ui-icon-reels></span>
         </button>
         <button class='footer-button'>
-            <span><icon-shop></icon-shop></span>
+            <span><ui-icon-shop></ui-icon-shop></span>
         </button>
         <div class='footer-avatar'>
             <img class='footer-avatar__img' src='https://dummyimage.com/20x20/9B5E56/fff' alt='avatar'>

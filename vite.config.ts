@@ -18,7 +18,7 @@ export default defineConfig({
           extensions: ['vue'],
           include: [/\.vue$/, /\.vue\?vue/],
           dirs: [
-              'src/components',
+              'src/shared',
               'src/widgets',
           ],
           directoryAsNamespace: true,

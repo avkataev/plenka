@@ -7,7 +7,7 @@
             <span class='profile-title__name'>instasamets</span>
             <button class='profile-title__button'>
                 <span>
-                    <icon-dots/>
+                    <ui-icon-dots/>
                 </span>
             </button>
         </div>
@@ -33,17 +33,17 @@
                 <div class='profile-button-group'>
                     <button class='profile-button'>
                         <span class='profile-button__icon'>
-                            <IconEdit/>
+                            <ui-icon-edit/>
                         </span>
                     </button>
                     <button class='profile-button'>
                         <span class='profile-button__icon'>
-                            <IconChart/>
+                            <ui-icon-chart/>
                         </span>
                     </button>
                     <button class='profile-button'>
                         <span class='profile-button__icon'>
-                            <IconShare/>
+                            <ui-icon-share/>
                         </span>
                     </button>
                 </div>
