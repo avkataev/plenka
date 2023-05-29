@@ -1,8 +1,4 @@
 <script lang='ts' setup>
-import IconEdit from 'components/icon/icon-edit.vue';
-import IconChart from 'components/icon/icon-chart.vue';
-import IconShare from 'components/icon/icon-share.vue';
-import IconDots from 'components/icon/icon-dots.vue';
 </script>
 
 <template>

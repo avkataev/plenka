@@ -1,27 +1,23 @@
 <script lang='ts' setup>
-import IconHome from 'components/icon/icon-home.vue';
-import IconSearch from 'components/icon/icon-search.vue';
-import IconReels from 'components/icon/icon-reels.vue';
-import IconShop from 'components/icon/icon-shop.vue';
 </script>
 
 <template>
     <footer class='footer'>
-            <button class='footer-button'>
-                <span><icon-home></icon-home></span>
-            </button>
-            <button class='footer-button'>
-                <span><icon-search></icon-search></span>
-            </button>
-            <button class='footer-button'>
-                <span><icon-reels></icon-reels></span>
-            </button>
-            <button class='footer-button'>
-                <span><icon-shop></icon-shop></span>
-            </button>
-            <div class='footer-avatar'>
-                <img class='footer-avatar__img' src='https://dummyimage.com/20x20/9B5E56/fff' alt='avatar'>
-            </div>
+        <button class='footer-button'>
+            <span><icon-home></icon-home></span>
+        </button>
+        <button class='footer-button'>
+            <span><icon-search></icon-search></span>
+        </button>
+        <button class='footer-button'>
+            <span><icon-reels></icon-reels></span>
+        </button>
+        <button class='footer-button'>
+            <span><icon-shop></icon-shop></span>
+        </button>
+        <div class='footer-avatar'>
+            <img class='footer-avatar__img' src='https://dummyimage.com/20x20/9B5E56/fff' alt='avatar'>
+        </div>
     </footer>
 </template>
 
