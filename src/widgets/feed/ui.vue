@@ -16,19 +16,7 @@
       </div>
     </div>
     <div class='photo-grid'>
-      <div v-for='(_, index) in 8' class='photo-item' :key='"photo-item-"+index'>
-        <div class='photo-item__content'>
-          <div class='mark mark--pin' v-if='[0,1].includes(index)'>
-            <ui-icon-pushpin/>
-          </div>
-          <div class='mark mark--carousel' v-if='[2,3].includes(index)'>
-            <ui-icon-carousel/>
-          </div>
-          <div class='photo-item__img'>
-            <img src='https://dummyimage.com/120x120/995d56/fff' alt=''>
-          </div>
-        </div>
-      </div>
+      <post-preview-ui v-for='(_, index) in 8' :key='"photo-item-"+index'></post-preview-ui>
     </div>
   </div>
 </template>
@@ -83,28 +71,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 1px;
   padding: 10px;
-}
-.photo-item {
-  position: relative;
-  width: 100%;
-  padding-bottom: 100%;
-  &__content {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 4px;
-  }
-  &__img {
-    width: 100%;
-    height: 100%;
-    background: #000;
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
 }
 .mark {
   position: absolute;

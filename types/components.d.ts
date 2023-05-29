@@ -12,6 +12,7 @@ declare module '@vue/runtime-core' {
     FeedUi: typeof import('./../src/widgets/feed/ui.vue')['default']
     FooterUi: typeof import('./../src/widgets/footer/ui.vue')['default']
     HeaderUi: typeof import('./../src/widgets/header/ui.vue')['default']
+    PostPreviewUi: typeof import('./../src/features/post-preview/ui.vue')['default']
     ProfileUi: typeof import('./../src/widgets/profile/ui.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
